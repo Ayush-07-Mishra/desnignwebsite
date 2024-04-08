@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    gap: 20px;
+    font-size: 12px;
+}
+
+#nav a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+
+#nav #centeratag{
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25vh;
+    padding: 5vw 10vw;
+}
+
+#heroleft{
+    width: 9vw;
+}
+
+#heroleft p{
+    text-transform: capitalize;
+    font-weight: 800;
+    opacity: .5;
+    font-size: 10px;
+    margin: 7px 0;
+}
+
+#heroleft #susimagewrapper{
+    height: 20vh;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+#heroleft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#heromiddle{
+    position: relative;
+    width: 25vw;
+    min-height:65vh;
+}
+
+#heromiddle #midimagewrapper{
+    height:100%;
+    width: 100%;
+}
+#heromiddle #heading{
+    position:absolute;
+    top: -18%;
+    left: -20%;
+}
+
+#heromiddle h1{
+    line-height: 1;
+    font-size: 5vw;
+    font-weight: 500;
+    letter-spacing: -.3vw;
+}
+
+#heromiddle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#heromiddle p{
+    padding-top: 15px;
+    width: 40%;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.2;
+}
+
+#heroright{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+#heroright p{
+    font-size: 12px;
+    opacity: .5;
+}
+
+
+#circlev {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    opacity: .5;
+    height: 5vh;
+    width: 3vw;
+}
+
+
+#motive{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 10vw;
+}
+
+
+#motive h3{
+    margin-top: 3%;
+    font-weight: 400;
+    opacity: .5;
+    text-transform: uppercase;
+}
+
+#motive p{
+    margin-top: 8%;
+    position: relative;
+    right: 0;
+    text-align: right;
+    font-size: 2vw;
+    align-items: center;
+    width: 80%;
+    
+}
+
+#motive span{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin: 0 10px;
+    align-items: center;
+    border-radius: 100px;
+    background-color: aquamarine;
+    margin-bottom: -6.7px;
+    overflow: hidden;
+}
+
+#motive span img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#dhamaal{
+    width: 100%;
+    height: fit-content;
+    padding: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+
+#synergy{
+width: 16vw;
+margin-left: 10vw;
+}
+
+#imgsynergy{
+    width: 100%;
+    height: 45vh;
+}
+
+#imgsynergy img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+#synergy h2{
+    padding: 2vh 0;
+    font-weight: 400;
+}
+
+#synergy p{
+    font-size: 12px;
+    width: 75%;
+
+}
+
+#harmony{
+    width: 20vw;
+}
+
+#imgharmony{
+    width: 100%;
+    margin-right: 13vw;
+    height: 65vh;
+}
+
+#imgharmony img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+#harmony h2{
+    padding: 2vh 0;
+    font-weight: 400;
+    text-align: right; 
+}
+#harmony p{
+    font-size: 12px;
+    text-align: right;
+    margin-left: 40%;
+    width: 60%;
+}
+
+#bio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 15vh;
+
+}
+
+#imgbio{
+    width: 70%;
+    height: 70vh;
+    object-fit: cover;
+}
+#imgbio img{
+    width: 100%;
+    height: 100%;
+    object-position: 0% 70%;
+    object-fit: cover;
+}
+
+#bio #biodegradable{
+    padding:0 10vw;
+    width: 30%;
+}
+
+#bio h2{
+    font-weight: 400;
+}
+#bio p{
+    font-size: 12px;
+    padding: 10px 0 ;
+}
+
+#future{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+video{
+    position: absolute;
+    /* top: -50%;
+    left:-50%;
+    transform: translate(-50%,-50%); */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
